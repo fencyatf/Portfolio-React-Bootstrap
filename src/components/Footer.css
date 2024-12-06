@@ -1,0 +1,39 @@
+.footer {
+    padding: 60px 0;
+    background-color: black;
+    color: white;
+}
+
+.footer-title {
+    margin-bottom: 40px;
+}
+
+.back-to-top {
+    cursor: pointer;
+}
+
+.arrow-icon {
+    color: white;
+    transition: color 0.3s ease, transform 0.3s ease; /* Add transform for scaling effect */
+}
+
+.arrow-icon:hover {
+    color: #59595a;
+    transform: scale(1.1); /* Scale up on hover */
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icon {
+    color: white;
+    transition: color 0.3s ease;
+    font-size: 1.8rem; 
+}
+
+.social-icon:hover {
+    color: #59595a;
+}

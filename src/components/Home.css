@@ -1,0 +1,60 @@
+.home {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(105deg, #d7d7d7 50%, black 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(86, 86, 86);
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.tagline,
+.name-tag,
+.wrap,
+.para {
+    text-align: center;
+}
+
+.name-tag {
+    font-weight: bolder;
+    color: #333;
+}
+
+.wrap {
+    color: #929292;
+    /* font-weight: bold;
+    font-size: 1.5rem; */
+}
+
+.para {
+    margin-top: 10px;
+}
+
+.img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icon {
+    transition: color 0.3s ease;
+    font-size: 1.8rem;
+}
+
+.social-icon:hover {
+    color: #dededf;
+}
+
+
+
